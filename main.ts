@@ -1,3 +1,4 @@
+// Writes the approved thank-you text to entry.txt.
 import { mkdirSync, writeFileSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
